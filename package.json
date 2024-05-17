@@ -4,11 +4,15 @@
   "description": "",
   "main": "service.js",
   "scripts": {
+    "start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
